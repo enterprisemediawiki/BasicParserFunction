@@ -16,19 +16,4 @@ require_once "$IP/extensions/BasicParserFunction/BasicParserFunction.php";
 
 Tutorial
 --------
-
-Per the installation instructions, you should have added the following to your LocalSettings.php file: 
-
-```php
-require_once "$IP/extensions/BasicParserFunction/BasicParserFunction.php";
-```
-
-What this does is tell MediaWiki to load the main file of your extension. This main file is where we'll start. It performs six functions:
-
-1. Tell the file to exit if it isn't being accessed properly
-2. Provide credits for the extension (name, authors, URL, etc) to MediaWiki
-3. Tell MediaWiki the name of your parser function(s) in a variety of languages
-4. Give MediaWiki any other translated or translatable text for use in your extension
-5. Tell MediaWiki where to find the file(s) associated with your parser function(s)
-6. Tell MediaWiki to automatically load any files associated with your parser function(s)
-
+See https://github.com/enterprisemediawiki/ParserFunctionHelper
