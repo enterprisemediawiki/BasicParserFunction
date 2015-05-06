@@ -1,0 +1,30 @@
+{
+	"name": "mediawiki/misc-parser-functions",
+	"type": "mediawiki-extension",
+	"description": "Provides a place to put miscellaneous parser functions, with some items very specific to NASA JSC wikis.",
+	"keywords": [
+		"MediaWiki",
+		"Parser Function"
+	],
+	"homepage": "https://github.com/jamesmontalvo3/MiscParserFunctions",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "James Montalvo",
+			"email": "jamesmontalvo3@gmail.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"irc": "irc://irc.freenode.net/mediawiki"
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"mediawiki/parser-function-helper": "~0.1"
+	},
+	"autoload": {
+		"files" : [
+			"MiscParserFunctions.php"
+		]
+	}
+}
